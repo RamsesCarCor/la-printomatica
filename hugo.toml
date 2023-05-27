@@ -1,0 +1,23 @@
+baseURL = "http://laprintomatica.com/"
+languageCode = 'en-us'
+title = 'La printomática'
+theme ="hugo-universal-theme"
+
+
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Option 1: Default Page"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.home"
+
+[[menu.main]]
+    name       = "Option 2: Application"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.home"
